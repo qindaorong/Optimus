@@ -1,0 +1,9 @@
+
+¶%squid:RedundantThrowsDeclarationCheck"Remove the declaration of thrown exception 'org.apache.kafka.common.errors.ProducerFencedException' which is a runtime exception.(υ±‡ωϊÿÿÿÿ
+Ί%squid:RedundantThrowsDeclarationCheck"…Remove the declaration of thrown exception 'org.apache.kafka.common.errors.OutOfOrderSequenceException' which is a runtime exception.(υ±‡ωϊÿÿÿÿ
+µ%squid:RedundantThrowsDeclarationCheck"€Remove the declaration of thrown exception 'org.apache.kafka.common.errors.AuthorizationException' which is a runtime exception.(υ±‡ωϊÿÿÿÿ
+Α%squid:RedundantThrowsDeclarationCheck"Remove the declaration of thrown exception 'com.next.optimus.common.exception.NextHttpException', as it cannot be thrown from method's body.(υ±‡ωϊÿÿÿÿ
+>squid:S2629"$Invoke method(s) only conditionally.(ι™†ζωÿÿÿÿ
+^squid:S2147"DCombine this catch with the one at line 65, which has the same body.(εώσωÿÿÿÿ
+Fsquid:S1153"1Directly append the argument of String.valueOf().(Ξϊά
+Fsquid:S1153"1Directly append the argument of String.valueOf().(Ξϊά

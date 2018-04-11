@@ -1,0 +1,31 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+  client:
+    serviceUrl:
+      defaultZone: http://nextTrucking:test123@localhost:8761/eureka/
+server:
+  port: 8766
+spring:
+    application:
+        name: CONFIG-SERVER
+    cloud:
+        config:
+            server:
+                git:
+                    #配置git仓库地址
+                    uri: https://github.com/qindaorong/configOptimus
+                    #配置仓库路径
+                    searchPaths: test
+                    #访问git仓库的用户名
+                    username: qindaorong
+                    #访问git仓库的用户密码
+                    password: qinrong726
+        #配置仓库的分支
+        label: master
+        stream:
+            kafka:
+                binder:
+                    zk-nodes:   devsvc01:2181,devsvc02:2181,devsvc03:2181
+                    brokers:    devsvc01:6101,devsvc02:6102,devsvc03:6103

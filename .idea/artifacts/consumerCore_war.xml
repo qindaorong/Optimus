@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="consumerCore:war">
+    <output-path>$PROJECT_DIR$/kafkaConsumerService/consumerCore/target</output-path>
+    <root id="archive" name="consumerCore-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="consumerCore:war exploded" />
+    </root>
+  </artifact>
+</component>

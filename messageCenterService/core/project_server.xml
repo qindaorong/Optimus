@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <file path="/opt/app/services/apache-tomcat-8.5.20/tomcat_messageCenter/bin/catalina.sh">
+        <properties name="NEXT_JAVA_OPTS">-server -Xms256m -Xmx512m -XX:NewSize=64m -XX:MaxNewSize=128m -XX:PermSize=512m -XX:MaxPermSize=512m</properties>
+    </file>
+
+    <file path="/opt/app/services/tomcat_messageCenter/conf/server.xml">
+    <properties name="NEXT_SERVER_SHUTDOWN_PORT">8025</properties>
+    <properties name="NEXT_HTTP_PROJECT_PORT">8762</properties>
+    <properties name="NEXT_AJP_PROJECT_PORT">8029</properties>
+</file>
+
+</config>

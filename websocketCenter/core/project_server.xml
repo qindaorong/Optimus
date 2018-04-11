@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<!--    <file path="/opt/app/services/apache-tomcat-8.5.20/bin/catalina.sh">
+        <properties name="NEXT_JAVA_OPTS">6008</properties>
+    </file>-->
+
+    <file path="/opt/app/services/tomcat_websocket/conf/server.xml">
+        <properties name="NEXT_SERVER_SHUTDOWN_PORT">7008</properties>
+        <properties name="NEXT_HTTP_PROJECT_PORT">8008</properties>
+        <properties name="NEXT_AJP_PROJECT_PORT">9008</properties>
+    </file>
+</config>

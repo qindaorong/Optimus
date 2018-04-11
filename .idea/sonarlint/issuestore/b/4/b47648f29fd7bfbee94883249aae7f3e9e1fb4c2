@@ -1,0 +1,6 @@
+
+Csquid:S1068")Remove this unused "topic" private field.(êµÑ§ûÿÿÿÿ
+fsquid:UselessImportCheck"DRemove this unused import 'java.util.concurrent.ExecutionException'.(¡£ØÍ
+gsquid:UselessImportCheck"@Remove this unused import 'java.util.concurrent.RunnableFuture'.(§·¶ùÿÿÿÿ
+\squid:UselessImportCheck":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş
+dsquid:UselessImportCheck"BRemove this unused import 'java.util.concurrent.TimeoutException'.(£‡Ì

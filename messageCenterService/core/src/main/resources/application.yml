@@ -1,0 +1,20 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+  client:
+    serviceUrl:
+      defaultZone: http://nextTrucking:test123@localhost:8761/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    name: MESSAGECENTER-SERVER
+
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds = 10000

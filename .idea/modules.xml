@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/messageCenterService/api/api.iml" filepath="$PROJECT_DIR$/messageCenterService/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configServer/configServer.iml" filepath="$PROJECT_DIR$/configServer/configServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafkaConsumerService/core/consumerCore.iml" filepath="$PROJECT_DIR$/kafkaConsumerService/core/consumerCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messageCenterService/core/core.iml" filepath="$PROJECT_DIR$/messageCenterService/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://D:/gitworkspace/Optimus/kafkaConsumer/kafkaConsumer.iml" filepath="D:/gitworkspace/Optimus/kafkaConsumer/kafkaConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafkaConsumerService/kafkaConsumerServer/kafkaConsumerServer.iml" filepath="$PROJECT_DIR$/kafkaConsumerService/kafkaConsumerServer/kafkaConsumerServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafkaConsumerService/kafkaConsumerService.iml" filepath="$PROJECT_DIR$/kafkaConsumerService/kafkaConsumerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messageCenterService/messageCenterService.iml" filepath="$PROJECT_DIR$/messageCenterService/messageCenterService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/next.springcloud.iml" filepath="$PROJECT_DIR$/next.springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/optimus-common.iml" filepath="$PROJECT_DIR$/common/optimus-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/optimus-eureka.iml" filepath="$PROJECT_DIR$/eureka/optimus-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messageCenterService/optimus-messageCenter.iml" filepath="$PROJECT_DIR$/messageCenterService/optimus-messageCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/publishTool/publishTool.iml" filepath="$PROJECT_DIR$/publishTool/publishTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocketCenter/api/websocketApi.iml" filepath="$PROJECT_DIR$/websocketCenter/api/websocketApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocketCenter/websocketCenter.iml" filepath="$PROJECT_DIR$/websocketCenter/websocketCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocketCenter/core/websocketCore.iml" filepath="$PROJECT_DIR$/websocketCenter/core/websocketCore.iml" />
+    </modules>
+  </component>
+</project>

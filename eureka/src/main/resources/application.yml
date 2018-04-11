@@ -1,0 +1,23 @@
+server:
+    port: 8761
+security:
+    basic:
+        enabled: true
+    user:
+        name: nextTrucking
+        password: test123
+#高性能主从注册中心test123
+spring:
+    application:
+       name : eureka_server
+eureka:
+    client:
+        #健康检查
+        healthcheck:
+            enabled: true
+        #表示是否将自己注册到Eureka Server
+        registerWithEureka: false
+        #表示是否从Eureka Server获取注册信息，默认为true
+        fetchRegistry: true
+        serviceUrl:
+            defaultZone: http://${security.user.name}:${security.user.password}@localhost:${server.port}/eureka/

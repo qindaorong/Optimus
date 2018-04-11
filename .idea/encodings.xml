@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../BackendService/src/main/resources/server.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafkaConsumerService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafkaConsumerService/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafkaConsumerService/kafkaConsumerServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/messageCenterService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/messageCenterService/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/messageCenterService/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/publishTool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/websocketCenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/websocketCenter/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/websocketCenter/core" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websocketcenter:war">
+    <output-path>$PROJECT_DIR$/websocketcenter/target</output-path>
+    <root id="archive" name="websocketcenter-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="websocketcenter:war exploded" />
+    </root>
+  </artifact>
+</component>

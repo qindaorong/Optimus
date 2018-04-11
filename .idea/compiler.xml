@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="backend" />
+        <module name="configServer" />
+        <module name="consumerCore" />
+        <module name="core" />
+        <module name="frameworkConsumer" />
+        <module name="kafkaConsumer" />
+        <module name="kafkaConsumerServer" />
+        <module name="optimus-common" />
+        <module name="optimus-eureka" />
+        <module name="publishTool" />
+        <module name="test" />
+        <module name="websocketApi" />
+        <module name="websocketCore" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.8" />
+      <module name="backend" target="1.8" />
+      <module name="cloudStreamService" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="configBus" target="1.8" />
+      <module name="configServer" target="1.8" />
+      <module name="consumerCore" target="1.8" />
+      <module name="consumerFramework" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="frameworkConsumer" target="1.8" />
+      <module name="kafkaConsumer" target="1.8" />
+      <module name="kafkaConsumerCore" target="1.8" />
+      <module name="kafkaConsumerServer" target="1.8" />
+      <module name="kafkaConsumerService" target="1.8" />
+      <module name="messageCenterService" target="1.8" />
+      <module name="next.springcloud" target="1.8" />
+      <module name="optimus-common" target="1.8" />
+      <module name="optimus-eureka" target="1.8" />
+      <module name="optimus-kafkaConsumer" target="1.8" />
+      <module name="optimus-messageCenter" target="1.8" />
+      <module name="publishTool" target="1.8" />
+      <module name="publishTools" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="turbine" target="1.8" />
+      <module name="userCenter" target="1.8" />
+      <module name="websocket" target="1.8" />
+      <module name="websocketApi" target="1.8" />
+      <module name="websocketCenter" target="1.8" />
+      <module name="websocketcenter" target="1.8" />
+      <module name="websocketCore" target="1.8" />
+      <module name="zipkinServer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/backend" />
+    <file type="web" url="file://$PROJECT_DIR$/eureka" />
+    <file type="web" url="file://$PROJECT_DIR$/kafkaConsumer" />
+    <file type="web" url="file://$PROJECT_DIR$/kafkaConsumerService/kafkaConsumerServer" />
+    <file type="web" url="file://$PROJECT_DIR$/messageCenterService/core" />
+    <file type="web" url="file://$PROJECT_DIR$/test" />
+    <file type="web" url="file://$PROJECT_DIR$/turbine" />
+    <file type="web" url="file://$PROJECT_DIR$/userCenter" />
+    <file type="web" url="file://$PROJECT_DIR$/websocketCenter" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cloudStreamService/pom.xml" />
+        <option value="$PROJECT_DIR$/configBus/pom.xml" />
+        <option value="$PROJECT_DIR$/consumerFramework/pom.xml" />
+        <option value="$PROJECT_DIR$/kafkaConsumerService/kafkaConsumerCore/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/publishTools/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkinServer/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>
